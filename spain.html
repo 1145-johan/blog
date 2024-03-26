@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spain.css">
+    <link rel="shortcut icon" href="./assets/images/Barcelina.jpg" type="image/svg+xml">
+    <title>Travel</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Travel With Me To Spain</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="assets/videos/spain.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Never Stop To </h2> 
+          <h3>Exploring The World</h3>
+          <p>Delve into the vibrant culture and rich history of Spain with me. From the cosmopolitan streets of Barcelona to the charming villages of Andalusia, my travel blog will showcase the beauty and diversity of this captivating country. Join me as I indulge in delicious tapas, marvel at stunning architecture, and immerse myself in the lively atmosphere of Spanish festivals.</p>
+          <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="https://www.instagram.com/johan_ms98/?igsh=eWNiZm03c3hvZHo1&utm_source=qr"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+         const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+      </script>
+    
+</body>
+</html>

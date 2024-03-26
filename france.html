@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="france.css">
+    <link rel="shortcut icon" href="./assets/images/france.jpeg" type="image/svg+xml">
+    <title>Travel</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Travel With Me To France</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="assets/videos/paris.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Never Stop To </h2> 
+          <h3>Exploring The World</h3>
+          <p>Let me be your guide to the enchanting landscapes and romantic charm of France. From the picturesque vineyards of Bordeaux to the iconic landmarks of Paris, my travel blog will transport you to the heart of this cultural hub. Explore quaint cobblestone streets, indulge in exquisite cuisine, and experience the art and romance that define the French way of life.</p>
+          <a href="franblog.html" target="_blank">Explore</a> 
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="https://www.instagram.com/johan_ms98/?igsh=eWNiZm03c3hvZHo1&utm_source=qr"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- Explore Section -->
+    <section class="explore">
+        <div class="container">
+            <li><a href="franblog.html">Explore</a></li>
+            <div class="blog-post">
+              
+                <!-- Your blog post content here -->
+            </div>
+            <!-- Repeat the above div for each blog post -->
+        </div>
+    </section>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="franblog.html">News</a></li>
+          <li><a href="index.html">Destination</a></li>
+          <li><a href="franblog.html">Blog</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+         const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+      </script>
+    
+</body>
+</html>

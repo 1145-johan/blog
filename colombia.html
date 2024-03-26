@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colombia.css">
+    <link rel="shortcut icon" href="./assets/images/colombia.jpg" type="image/svg+xml">
+    <title>Travel</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Travel With Me To Colombia</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="assets/videos/pexels-wilder-restrepo-7898729 (2160p).mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Never Stop To </h2> 
+          <h3>Exploring The World</h3>
+          <p>Embark on a journey with me as I explore the rich tapestry of Colombia and beyond. From the vibrant streets of Medellín and Bogota to the breathtaking landscapes of the Colombian countryside, my travel blog captures the essence of my adventures, sharing insights, stories, and tips along the way. Join me as I discover new cultures, savor local cuisines, and immerse myself in unforgettable experiences.</p>
+          <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+         const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+      </script>
+    
+</body>
+</html>
