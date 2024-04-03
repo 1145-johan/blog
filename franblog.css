@@ -10824,3 +10824,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+/* this is where the videos will go */
+
+.video-container {
+  margin-bottom: 10px; /* Add some space below the video */
+  text-align: center; /* Center the video horizontally */
+}
+
+.video-container video {
+  max-width: 382px; /* Adjust as desired */
+  max-height: 480px; /* Adjust as desired */
+}
